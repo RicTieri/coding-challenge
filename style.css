@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+div > .container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+}
+.container{
+    margin:10% 20% 50%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+}
+nav, main{
+    position: relative;
+    padding: 10px;
+    left:10%;
+    right:-10%;
+}
+div > img{
+    width: 250px;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1{
+    text-align: center;
+    color: lime;
+}
+nav{
+    background-color: lime;
+    text-align: center;
+    width: 80%;
+}
+main{
+    color: white;
+}
+.device{
+    font-weight: bold;
+}
+.detail{
+    display: block;
+}
+.state{
+    display: block;
+}
+.charge1{
+    width: 140px;
+    border: 20px;
+    height: 20px;
+    background: orange ;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+}
+.charge2{
+    width: 200px;
+    border: 20px;
+    height: 20px;
+    background: limegreen;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.charge3{
+    width: 80px;
+    border: 20px;
+    height: 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
